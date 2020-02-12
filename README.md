@@ -1,4 +1,5 @@
-#Forked repository of ChicoState/Inventory under gagesmithcode
+[![Build Status](https://travis-ci.org/gagesmithcode/Inventory.svg?branch=master)](https://travis-ci.org/gagesmithcode/Inventory)
+# Forked repository of ChicoState/Inventory under gagesmithcode
 
 Getting Started:
 
