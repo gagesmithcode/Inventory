@@ -5,6 +5,12 @@
 using std::string;
 using std::ostream;
 
+/*
+* Class Name: Inventory
+* Description: an Inventory class that holds all the attributes of the 
+*           Inventory such as name, price and stock. 
+*
+*/
 class Inventory
 {
   private:
