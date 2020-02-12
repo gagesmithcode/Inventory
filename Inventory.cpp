@@ -32,7 +32,7 @@ void Inventory::sell()
   }
   else
   {
-    cout << "Sorry, that item is out of stock" << endl;
+    std::cout << "Sorry, that item is out of stock" << std::endl;
   }
   
 }
