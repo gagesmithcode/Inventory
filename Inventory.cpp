@@ -4,7 +4,12 @@
 
 using std::string;
 using std::ostream;
-  
+/*
+* Name: Inventory()
+* Parameters: string name, float price, int count
+* Description: a base constructor for the Inventory class object
+*
+*/  
 Inventory::Inventory(string name, float price, int count)
 {
   m_name = name;
@@ -12,11 +17,25 @@ Inventory::Inventory(string name, float price, int count)
   m_in_stock = count;
 }
 
+/*
+* Name: sell()
+* Parameters: none
+* Description: a simple function to "sell" a product by 
+*         decrementing its stock value by 1.
+* Return: void
+*/  
 void Inventory::sell()
 {
   m_in_stock--;
 }
 
+/*
+* Name: Inventory()
+* Parameters: ostream& stream, const Inventory& item
+* Description: a overloaded operator function to print invetory items
+*       pushed to the "<<" operator.
+* Return: ostream reference
+*/  
 ostream& operator<<(ostream& stream, const Inventory& item)
 {
   stream << item.m_name 
